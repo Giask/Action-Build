@@ -53,12 +53,12 @@ on:
         type: string
         description: "自定义构建时间 (输入F使用当前时间)"
         required: false
-        default: "Sun Jun 15 14:56:02 UTC 2025"
+        default: "#SMP PREEMPT Tue Dec 17 23:36:49 UTC 2024"
       SUFFIX:
         type: string
         description: "自定义内核后缀 (不输入使用随机字符串)"
         required: false
-        default: ""
+        default: "-androd15-8-g014-a bogki383916444-4k"
       FAST_BUILD:
         type: boolean
         description: "是否启用极速构建？"
